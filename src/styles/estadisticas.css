@@ -1,0 +1,85 @@
+:root {
+  --azul: #3b6cff;
+  --azul-oscuro: #2548b9;
+}
+
+.estadisticas-contenedor {
+  background: #fff;
+  border-radius: 16px;
+  border: 3px solid var(--azul);
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 15px #0004;
+}
+
+.titulo-estadisticas {
+  text-align: center;
+  color: var(--azul);
+  margin-bottom: 20px;
+}
+
+.cuadros-metricas {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.cuadro-metrica {
+  background: #f0f4ff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  border: 2px solid var(--azul);
+}
+
+.numero-metrica {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--azul-oscuro);
+}
+
+.subtitulo {
+  color: var(--azul);
+  margin-top: 25px;
+}
+
+.grafico-barras {
+  margin-top: 10px;
+}
+
+.barra-contenedor {
+  margin-bottom: 10px;
+}
+
+.barra-label {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.barra {
+  background: var(--azul);
+  padding: 6px;
+  color: white;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+/* GRÁFICO DE "PASTEL" SIMPLIFICADO */
+.grafico-pastel {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.slice {
+  background: var(--azul);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  transform: rotate(var(--giro));
+  min-width: 100px;
+  text-align: center;
+}

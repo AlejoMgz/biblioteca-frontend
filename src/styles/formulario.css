@@ -1,0 +1,68 @@
+.formulario-juego {
+  background: linear-gradient(180deg, #007cf0, #00dfd8);
+  padding: 25px;
+  border-radius: 18px;
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto 30px;
+  box-shadow: 0 0 20px #00eaff55;
+}
+
+.formulario-juego h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+/* Cada input separado */
+.grupo-input {
+  margin-bottom: 18px;
+}
+
+/* Inputs más limpios */
+.formulario-juego input,
+.formulario-juego textarea {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  background-color: #ffffffdd;
+  font-family: "Orbitron", sans-serif;
+  font-size: 14px;
+  color: #000;
+  outline: none;
+  transition: 0.2s;
+}
+
+/* Espacio mayor al textarea */
+.formulario-juego textarea {
+  height: 90px;
+  resize: none;
+}
+
+/* Efecto al seleccionar */
+.formulario-juego input:focus,
+.formulario-juego textarea:focus {
+  border-color: #00eaff;
+  box-shadow: 0 0 10px #00eaff80;
+}
+
+/* Botón */
+.formulario-juego button {
+  width: 100%;
+  padding: 14px;
+  background: #0044ff;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.formulario-juego button:hover {
+  background: #002fee;
+  box-shadow: 0 0 12px #00aaffaa;
+}
